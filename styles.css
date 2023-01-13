@@ -12,6 +12,7 @@
 
 /* Header styles */
 .flex-header{
+    padding-top: 16px;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -90,7 +91,6 @@ header a{
     flex-direction: column;
     justify-content: space-evenly;
     gap: 8px;
-
 }
 
 .flex-hero-left-content button{
@@ -105,9 +105,48 @@ header a{
     margin-top: 4px;
     flex-shrink: 0;
     cursor: pointer;
+}
+
+/* Hero Felx styels end */
+
+/* List Content styles */
+.list-container{
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
 
 }
 
-.flex-hero-left-content button:hover{
+.list-container h2 {
+    text-align: center;
+    font-size: 36px;
 }
 
+.list-items{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 32px;
+}
+
+.list-item{
+    display: flex;
+    flex-direction: column;
+    flex: 0 1 200px;
+    gap: 8px;
+}
+
+.list-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 16px;
+    border: solid 4px rgb(96, 96, 236);
+}
+
+.list-item p{
+    text-align: center;
+}
