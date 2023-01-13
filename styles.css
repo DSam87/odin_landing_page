@@ -101,7 +101,7 @@ header a{
     font-size: 18px;
     font-weight: bold;
     color: white;
-    background-color: rgb(96, 96, 236);
+    background-color:#3882f6;
     margin-top: 4px;
     flex-shrink: 0;
     cursor: pointer;
@@ -123,6 +123,8 @@ header a{
 .list-container h2 {
     text-align: center;
     font-size: 36px;
+    font-weight: bold;
+    color: #1f2937;
 }
 
 .list-items{
@@ -144,7 +146,7 @@ header a{
     height: 100%;
     object-fit: cover;
     border-radius: 16px;
-    border: solid 4px rgb(96, 96, 236);
+    border: solid 4px #3882f6;
 }
 
 .list-item p{
