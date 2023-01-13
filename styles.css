@@ -30,9 +30,10 @@ header .logo{
 }
 
 header a{
-    color: white;
+    color: #e5e7eb;
     text-decoration: none;
     margin: 0px 8px;
+    font-size: 18px;
 }
 
 /* Header styles end */
@@ -87,8 +88,9 @@ header a{
 .flex-hero-left-content{
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-evenly;
     gap: 8px;
+
 }
 
 .flex-hero-left-content button{
@@ -102,5 +104,10 @@ header a{
     background-color: rgb(96, 96, 236);
     margin-top: 4px;
     flex-shrink: 0;
+    cursor: pointer;
+
+}
+
+.flex-hero-left-content button:hover{
 }
 
