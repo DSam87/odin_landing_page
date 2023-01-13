@@ -1,0 +1,38 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.width-container{
+    width: 80%;
+    margin: auto;
+}
+
+/* Header styles */
+.flex-header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    height: 50px;
+}
+
+header{
+    background-color: #1f2937 ;
+}
+
+header .logo{
+    margin-left: 10px ;
+    color: #f9faf8;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+header a{
+    color: white;
+    text-decoration: none;
+    margin: 0px 8px;
+}
+
+/* Header styles end */
