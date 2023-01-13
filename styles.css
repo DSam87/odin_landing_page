@@ -2,10 +2,11 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    font-family: 'Roboto', sans-serif;
 }
 
 .width-container{
-    width: 80%;
+    width: 60%;
     margin: auto;
 }
 
@@ -23,7 +24,6 @@ header{
 }
 
 header .logo{
-    margin-left: 10px ;
     color: #f9faf8;
     font-size: 24px;
     font-weight: bold;
@@ -36,3 +36,71 @@ header a{
 }
 
 /* Header styles end */
+
+/* Hero Felx styels */
+
+.flex-hero{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    height: 500px;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-content{
+    background-color: #1f2937 ;
+}
+
+.main-content h1{
+    font-size: 48px;
+    font-weight: 900;
+    color: #f9faf8;
+    width: 80%;
+}
+
+.main-content p{
+    width: 80%;
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.flex-hero-item{
+    flex: 1 1 400px;
+
+}
+
+.flex-hero-left-content{
+    height: 300px;
+}
+
+.flex-hero-right-content{
+    height: 300px;
+}
+
+.flex-hero-right-content img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.flex-hero-left-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 8px;
+}
+
+.flex-hero-left-content button{
+    width: 135px;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    background-color: rgb(96, 96, 236);
+    margin-top: 4px;
+    flex-shrink: 0;
+}
+
