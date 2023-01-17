@@ -225,3 +225,25 @@ header a{
     font-weight: bold;
     font-size: 24px;
 }
+
+/* End of quote container styles */
+
+.footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 75px;
+    background-color: #1f2937;
+    color: white;
+    font-size: small;
+    font-style: italic;
+    letter-spacing: 1px;
+    font-size: 12px;
+}
+
+.footer a{
+    color: white;
+    font-style: none;
+    text-decoration: none;
+}
