@@ -182,3 +182,46 @@ header a{
     font-style: italic;
     color: #1f2937;
 }
+
+.call-to-action-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+}
+
+.call-to-action{
+    background-color: #3882f6;
+    height: 150px;
+    flex: 0 1 900px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.right-call-to-action button{
+    width: 135px;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    background-color:#3882f6;
+    margin-top: 4px;
+    flex-shrink: 0;
+    cursor: pointer;
+    border: solid white 2px;
+}
+
+.left-call-to-action{
+    color: white;
+}
+
+.left-call-to-action .bold{
+    font-weight: bold;
+    font-size: 24px;
+}
